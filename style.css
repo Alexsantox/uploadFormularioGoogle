@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+    {
+        margin:0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+
+body {
+
+        background: #1B2029;
+        color: white;
+        font-weight: 500;
+        display: flex;
+        min-height: 100vh;
+    }
+main {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1 {  /*Titulo*/
+
+color: #8880FE;
+font-size: 3rem;
+margin-bottom: 3rem;  /*Espaçamento*/
+}
+
+main. social-media {
+    display: flex;
+    align-content: center;
+}
+
+main .social-media a {
+    text-decoration: none;
+}
+
+main .social-media img {
+    width: 36px;
+    margin-left: 3rem;
+}
+
+main .social-media a:first-child img {
+    margin-left: 0;
+}
+
+main  .alternative {
+    margin-top: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.3);
+    position: relative;
+}
+ddf
+main .alternative span::before, main .alternative span::after {
+    position: absolute;
+    content: ;
+    height: 1px;
+    width: 100px;
+    background: : rgba();
+}
+
+main form { /* Formulário*/
+    Display: flex; /*Deixar um embaixo do outro*/
+    flex-direction: column;
+    align-items: center; /* Alinhar os itens no centro*/
+}
+
+main form label {
+    display: flex;
+    flex-direction: column; /*Alinhar nome/e-mail/password*/
+}
+
+main form label span {
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+
+main form input {
+    background: #161923;  /*Cor de fundo fundo opção preencher*/
+    width: 300px; /*Largura opção preencher*/
+    height: 50px; /* Altura opção preencher*/
+    padding: 0 0.5rem; /* Afastar Titulo da opção preencher*/
+    margin-top: 1rem;
+    outline: none; /*Borda que fica na opção preencher, está desativada com a opção none*/
+    color: rgba(166, 166, 166); /* Cor de dentro da caixa de preencher*/
+    font-size: 1rem;
+    border: 1px solid #040B18;
+    border-radius: 8px;
+
+}
+
+main form input[type="submit"] { /*Botão SIGN UP*/
+    cursor: pointer; /*Mãozinha que fica no botão ao aproximar cursor*/
+    width: 50%; /* Largura da caixa*/
+    margin-top: 4rem; /*Distância do botão e do Formulário*/
+    border: none;
+    border-radius: 32px;
+    background: #6C63FF; /*Cor de fundo do botão*/
+    color: white; /*Cor da fonte de dentro do botão*/
+    font-size: 1.1rem; /*Tamanho da fonte*/
+    transition: all .3s ease-in-out; /*Transição da cor "3s" ---> Segundos*/
+}
+
+main form input[type="submit"]:hover {
+    background: #5952d4; /*Cor que está intercalando no efeito do botão Sign Up*/
+}
+
+section.images {
+    display: flex;
+    align-items: flex-end; /*Alinhar imagem no final do site*/
+    padding: 4rem; /*Distancia da imagem e borda*/
+}
+
+section.images img {
+    width: 90%; /*Diminuir o tamanho do logo mobile*/
+}
+
+section.images .circle { /* Criando circulo*/
+    position: absolute; /* Altura */
+    height: 100%; /* Largura*/
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(45deg, #E8CBC0, #636FA4); /*Cor de fundo do circulo*/
+    clip-path: circle(40% at right 80%); /*Tamanho do círculo / "at" é a posição do círculo*/
+    z-index: -1; /* Tag para deixar a imagem (círculo) por baixo, sobrepor*/
+}
