@@ -2,10 +2,11 @@
 
 
 
-### Uma página desenvolvida para modular os botões neon com sombra e movimento.
-🔹 Coloquei as informações de uma recarga como exemplo, para o botão não ficar vazio na tela.
+### Uma página de formulário com "nome", "e-mail" e "senha" e com botão "Sign Up" com sombra.
 
-🔹 Escolhi a cor azul neon para o efeito se destacar-se.
+🟣 A página possui link para redes sociais como Google, Facebook e Linkedin.
+
+🟣 Ao lado direito da tela, adicionei imagens para preencher o fundo e não deixar apenas a tabela de formulário.
 
 #
 **Tecnologias usadas:**
