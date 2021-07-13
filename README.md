@@ -2,7 +2,9 @@
 
 
 
-### Uma página de formulário com "nome", "e-mail" e "senha" e com botão "Sign Up" com sombra.
+### Formulário de login
+
+🟣 Uma página de formulário com "nome", "e-mail" e "senha" e com botão "Sign Up" com sombra.
 
 🟣 A página possui link para redes sociais como Google, Facebook e Linkedin.
 
