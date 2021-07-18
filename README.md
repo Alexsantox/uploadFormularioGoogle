@@ -4,11 +4,11 @@
 
 ### Formulário de login
 
-🟣 Uma página de formulário com "nome", "e-mail" e "senha" e com botão "Sign Up" com sombra.
+🚀 Uma página desenvolvida com um foguete png e um fundo jpeg.
 
-🟣 A página possui link para redes sociais como Google, Facebook e Linkedin.
+🚀 Lua criada em CSS, círculo + sombra.
 
-🟣 Ao lado direito da tela, adicionei imagens para preencher o fundo e não deixar apenas a tabela de formulário.
+🚀 Foguete orbitando infinitamente na lua.
 
 #
 **Tecnologias usadas:**
